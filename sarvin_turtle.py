@@ -13,12 +13,11 @@ for a in range(4):
     y.forward(200)
 
 # Draw a triangle
+for b in range(3):
+    y.forward(150)
+    y.right(120)
+    y.forward(150)
 
-y.forward(150)
-y.right(120)
-y.forward(150)
-y.right(120)
-y.forward(150)
 
 # Draw a circle with radius 50 px
 y.circle(50)
